@@ -10,9 +10,7 @@ End-to-end retail analytics project on the Rossmann Store Sales dataset (1,115 s
 - `notebooks/05_holidays_seasonality.ipynb` — holiday and school-break effects
 - `notebooks/06_store_ranking.ipynb` — store-level ranking and growth analysis
 - `dashboard.html` — self-contained interactive dashboard (open directly in a browser, no server needed)
-- `dashR.twbx` — Tableau Public packaged workbook version of the dashboard
 - `notebooks/store_summary.csv` — aggregated per-store metrics (used by the dashboard)
-- `data/tableau_csvs/` — pre-aggregated CSVs used to build the Tableau version
 
 ## Data
 Raw data is not included in this repo (files are too large for GitHub). Download `train.csv`, `store.csv`, `test.csv` from the [Kaggle Rossmann Store Sales competition](https://www.kaggle.com/c/rossmann-store-sales/data) and place them in a local `data/` folder before running the notebooks.
