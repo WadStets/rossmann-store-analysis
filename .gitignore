@@ -1,0 +1,21 @@
+# Raw data — too large / not needed in git history
+data/train.csv
+data/test.csv
+data/store.csv
+notebooks/rossmann_clean.csv
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+
+# Apple Pages drafts (not part of the final deliverable)
+*.pages
+
+# Tableau temp/lock files
+*.twbr
+.~*
